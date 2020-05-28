@@ -1,5 +1,4 @@
-FROM docker:dind
-MAINTAINER  n.douma@nekoconeko.nl
+FROM docker:18.09.7-dind
 
 COPY dind-opts.sh /usr/local/bin/
 
